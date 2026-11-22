@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Calista Candradinatan - Visual Communication Design student at Universitas Pelita Harapan. Exploring visual design, branding, illustration, and culture!">
+    <title>Calista Candradinatan | Portfolio - My Works</title>
+
+    <!-- Google Fonts Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chewy&family=Fredoka:wght@600;700;800;900&family=Fraunces:ital,opsz,wght@0,9..144,700..900;1,9..144,700..900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&family=Shrikhand&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="asssets/css/style.css">
+</head>
+
+<body>
+    <!-- =======================================================================
+         SITE HEADER / NAVIGATION BAR (Directly matching attachment)
+         Maroon bar with: Calista Candradinatan | About Me   My Works   Hire Me!
+         ======================================================================= -->
+    <header class="site-header" id="site-header">
+        <nav class="nav-container" aria-label="Main Navigation">
+            <!-- Left Group: Brand Name, Vertical Divider, and Tabs Bar -->
+            <div class="nav-left-group">
+                <a href="#cover" class="nav-brand-name" aria-label="Calista Candradinatan">Calista Candradinatan</a>
+                <span class="nav-divider" aria-hidden="true">|</span>
+                <div class="nav-tabs-bar" role="tablist" aria-label="Portfolio Sections">
+                    <a href="#about" class="nav-tab-item" id="tab-about" role="tab" aria-selected="false">About Me</a>
+                    <a href="#experiences" class="nav-tab-item" id="tab-experiences" role="tab"
+                        aria-selected="false">Experiences</a>
+                    <a href="#skills" class="nav-tab-item" id="tab-skills" role="tab" aria-selected="false">Skills</a>
+                    <a href="#my-works" class="nav-tab-item" id="tab-works" role="tab" aria-selected="false">My
+                        Works</a>
+                    <a href="#pet-my-cat" class="nav-tab-item" id="tab-pet-cat" role="tab"
+                        aria-selected="false">Doumagotchi</a>
+                </div>
+            </div>
+
+            <!-- Right CTA Button: Rounded Outline "Hire Me!" -->
+            <div class="nav-right-group">
+                <a href="#hire-me" class="nav-btn-hire" id="header-hire-btn">Hire Me!</a>
+                <!-- Mobile Navigation Toggle -->
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Open Navigation Menu"
+                    aria-expanded="false">
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Mobile Drawer Navigation -->
+        <aside class="mobile-nav-drawer" id="mobile-drawer" aria-label="Mobile Navigation" aria-hidden="true">
+            <div class="mobile-drawer-header">
+                <span class="mobile-brand-title">Calista Candradinatan</span>
+                <button class="mobile-close-btn" id="drawer-close-btn"
+                    aria-label="Close Navigation Menu">&times;</button>
+            </div>
+            <ul class="mobile-menu-list">
+                <li><a href="#about" class="mobile-nav-link" id="mobile-tab-about">About Me</a></li>
+                <li><a href="#experiences" class="mobile-nav-link" id="mobile-tab-experiences">Experiences</a></li>
+                <li><a href="#skills" class="mobile-nav-link" id="mobile-tab-skills">Skills</a></li>
+                <li><a href="#my-works" class="mobile-nav-link" id="mobile-tab-works">My Works</a></li>
+                <li><a href="#pet-my-cat" class="mobile-nav-link" id="mobile-tab-pet-cat">Doumagotchi</a></li>
+            </ul>
+            <a href="#hire-me" class="mobile-hire-btn" id="mobile-hire-btn">Hire Me!</a>
+        </aside>
+        <div class="drawer-backdrop" id="drawer-backdrop" aria-hidden="true"></div>
+    </header>
+
+    <!-- =======================================================================
+         MAIN CONTENT
+         ======================================================================= -->
+    <main>
+        <!-- =======================================================================
+             COVER SECTION — Portfolio Landing Page
+             ======================================================================= -->
+        <section class="cover-section" id="cover" aria-label="Portfolio Cover">
+            <div class="cover-inner">
+                <!-- Tomato & Star decorations — scattered around title -->
+                <!-- Tomato nav links — hover to rotate, click to navigate -->
+                <a href="#about" class="cover-tomat-link cover-tomat-top-left" aria-label="Go to About Me">
+                    <img src="asssets/image/tomat-1.png" alt="" class="cover-tomat" aria-hidden="true">
+                    <span class="cover-tomat-label">About Me</span>
+                </a>
+                <a href="#experiences" class="cover-tomat-link cover-tomat-top-right"
+                    aria-label="Go to Experiences & Skills">
+                    <img src="asssets/image/tomat-2.png" alt="" class="cover-tomat" aria-hidden="true">
+                    <span class="cover-tomat-label">Exp &amp; Skills</span>
+                </a>
+                <a href="#my-works" class="cover-tomat-link cover-tomat-bottom-left" aria-label="Go to My Works">
+                    <img src="asssets/image/tomat-3.png" alt="" class="cover-tomat" aria-hidden="true">
+                    <span class="cover-tomat-label">My Works</span>
+                </a>
+                <a href="#pet-my-cat" class="cover-tomat-link cover-tomat-bottom-center" aria-label="Go to Doumagotchi">
+                    <img src="asssets/image/tomat-2.png" alt="" class="cover-tomat" aria-hidden="true">
+                    <span class="cover-tomat-label">Doumagotchi</span>
+                </a>
+                <a href="#hire-me" class="cover-tomat-link cover-tomat-bottom-right" aria-label="Go to Hire Me">
+                    <img src="asssets/image/tomat-1.png" alt="" class="cover-tomat" aria-hidden="true">
+                    <span class="cover-tomat-label">Hire Me!</span>
+                </a>
+                <img src="asssets/image/stars-doodle.png" alt="" class="deco-sticker cover-star-top-right"
+                    aria-hidden="true">
+                <img src="asssets/image/stars-doodle.png" alt="" class="deco-sticker cover-star-bottom-left"
+                    aria-hidden="true">
+                <img src="asssets/image/stars-doodle.png" alt="" class="deco-sticker cover-star-mid-left"
+                    aria-hidden="true">
+                <img src="asssets/image/stars-doodle.png" alt="" class="deco-sticker cover-star-mid-right"
+                    aria-hidden="true">
+
+                <!-- Title — focal point center -->
+                <img src="asssets/image/title-portofolio.PNG" alt="Calista's Portofolio" class="cover-title-img">
+            </div>
+        </section>
+
+        <!-- =======================================================================
+             HERO / ABOUT ME SECTION (Full-page — content fills entire viewport)
+             ======================================================================= -->
+        <section class="hero-section-outer" id="about" aria-label="About Calista Candradinatan">
+            <!-- Section floating sticker accents -->
+            <div class="section-deco-layer" aria-hidden="true">
+                <img src="asssets/image/tomat-1.png" alt="" class="deco-sticker about-deco-tomat-1 tomat-spin-trigger">
+                <img src="asssets/image/stars-doodle.png" alt="" class="deco-sticker about-deco-star-1">
+                <img src="asssets/image/tomat-2.png" alt="" class="deco-sticker about-deco-tomat-2 tomat-spin-trigger">
+            </div>
+            <div class="hero-section">
+                <!-- Additional star doodles matching reference attachment -->
+                <img src="asssets/image/stars-doodle.png" alt="" class="deco-sticker about-deco-star-2"
+                    aria-hidden="true">
+                <img src="asssets/image/stars-doodle.png" alt="" class="deco-sticker about-deco-star-3"
+                    aria-hidden="true">
+                <div class="hero-grid">
+                    <!-- Left Column: Bio & Typography -->
+                    <div class="hero-content">
+                        <!-- Hand-drawn Star Doodle above Welcome! -->
+                        <div class="stars-doodle-wrapper" aria-hidden="true">
+                            <img src="asssets/image/stars-doodle.png" alt="" class="stars-doodle-img" width="315"
+                                height="300">
+                        </div>
+
+                        <!-- Headline: "Welcome!" in Merah Maroon display typography -->
+                        <h1 class="hero-headline"><img src="asssets/image/welcome-text.png" alt="Welcome!"
+                                class="title-text-img welcome-text-img"></h1>
+
+                        <!-- Bio Statement -->
+                        <p class="hero-description" id="about-typing-text">
+                            My name is Calista Candradinatan, and I’m a Visual Communication Design student at
+                            Universitas
+                            Pelita Harapan. I’m passionate about exploring visual design, branding, and culture through
+                            creative and meaningful ideas!
+                        </p>
+
+                        <!-- Action Buttons -->
+                        <div class="hero-actions">
+                            <a href="#my-works" class="btn-primary-maroon" id="btn-explore-works">
+                                <span class="btn-icon-svg" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                                        <path
+                                            d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                    </svg>
+                                </span>
+                                <span>Explore My Works</span>
+                            </a>
+
+                            <a href="#hire-me" class="btn-secondary-outline" id="btn-hero-hire">
+                                <span class="btn-icon-svg" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                                        stroke-linecap="round" stroke-linejoin="round" width="20" height="20">
+                                        <path d="M3 10.5L12 3l9 7.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-9.5z" />
+                                        <path d="M9 21v-6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v6" />
+                                    </svg>
+                                </span>
+                                <span>Hire Me!</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Animated Calista Doodling Character -->
+                    <div class="hero-visual">
+                        <div class="doodle-speech-bubble" aria-hidden="true">
+                            <span>don't squeeze me!</span>
+                        </div>
+                        <div class="character-doodle-wrapper" id="character-doodle" role="button" tabindex="0"
+                            aria-label="Interactive illustration of Calista happily doodling - Tap to play">
+                            <!-- 2-Frame GIF-style Stop-Motion Animation + Angry Easter Egg -->
+                            <div class="character-doodle-anim">
+                                <img src="asssets/image/character-doodle-1.png"
+                                    alt="Calista doodling illustration frame 1" class="character-frame frame-1"
+                                    width="711" height="680" loading="eager" fetchpriority="high">
+                                <img src="asssets/image/character-doodle-2.png"
+                                    alt="Calista doodling illustration frame 2" class="character-frame frame-2"
+                                    width="711" height="680" loading="eager">
+                                <img src="asssets/image/character-doodle-angry.png" alt="Calista angry doodle"
+                                    class="character-frame frame-angry" width="711" height="680" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.hero-section inner -->
+        </section><!-- /.hero-section-outer -->
+
+        <!-- =======================================================================
+             EXPERIENCES & SKILLS — SIDE BY SIDE
+             Two notebook cards in a 2-column grid layout
+             ======================================================================= -->
+        <section class="exp-skills-wrapper-section" id="experiences" aria-label="Experiences and Skills">
+            <!-- Section floating sticker accents -->
+            <div class="section-deco-layer" aria-hidden="true">
+                <img src="asssets/image/stars-doodle.png" alt="" class="deco-sticker exp-deco-star-1">
+                <img src="asssets/image/tomat-1.png" alt="" class="deco-sticker exp-deco-tomat-1 tomat-spin-trigger">
+                <img src="asssets/image/stars-doodle.png" alt="" class="deco-sticker exp-deco-star-2">
+                <img src="asssets/image/tomat-3.png" alt="" class="deco-sticker exp-deco-tomat-2 tomat-spin-trigger">
+            </div>
+
+            <div class="exp-skills-row">
+
+                <!-- ── LEFT: EXPERIENCES ── -->
+                <div class="exp-col" id="exp-col-experiences">
+                    <h2 class="experiences-title" id="exp-heading">
+                        <img src="asssets/image/experiences-text.png" alt="Experiences"
+                            class="title-text-img exp-title-img">
+                    </h2>
+                    <div class="exp-notebook-card">
+                        <div class="notebook-binding-header exp-binding" aria-hidden="true">
+                            <span class="binder-hole"></span>
+                            <div class="binder-loop-slot"><span class="binder-coil"></span><span
+                                    class="binder-hole"></span></div>
+                            <div class="binder-loop-slot"><span class="binder-coil"></span><span
+                                    class="binder-hole"></span></div>
+                            <span class="binder-hole"></span>
+                            <span class="binder-hole"></span>
+                            <span class="binder-hole"></span>
+                            <span class="binder-hole"></span>
+                            <span class="binder-hole"></span>
+                            <span class="binder-hole"></span>
+                            <span class="binder-hole"></span>
+                            <div class="binder-loop-slot"><span class="binder-coil"></span><span
+                                    class="binder-hole"></span></div>
+                            <div class="binder-loop-slot"><span class="binder-coil"></span><span
+                                    class="binder-hole"></span></div>
+                            <span class="binder-hole"></span>
+                        </div>
+                        <div class="exp-page-body">
+                            <!-- ACCORDION 1: Organizations & Committees -->
+                            <div class="exp-accordion">
+                                <button class="exp-accordion-btn" type="button" aria-expanded="false">
+                                    <span>Organizations &amp; Committees</span>
+                                    <span class="exp-accordion-arrow">▼</span>
+                                </button>
+                                <div class="exp-accordion-content" hidden>
+                                    <div class="exp-sub-group">
+                                        <h4 class="exp-sub-title">Organizations</h4>
+                                        <ul class="exp-list">
+                                            <li>Pelita Harapan Photography Club – Media Designs</li>
+                                        </ul>
+                                    </div>
+                                    <div class="exp-sub-group">
+                                        <h4 class="exp-sub-title">Committees</h4>
+                                        <ul class="exp-list">
+                                            <li>Reforma – Sales &amp; Merchandising Division (2025–2026)</li>
+                                            <li>Immovicon – Multimedia Division (2025)</li>
+                                            <li>UPH Talent Show – Documentation Division (2025, 2026)</li>
+                                            <li>UPH Design Week – Creative Design Division (2026)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ACCORDION 2: Professional Experience -->
+                            <div class="exp-accordion">
+                                <button class="exp-accordion-btn" type="button" aria-expanded="false">
+                                    <span>Professional Experience</span>
+                                    <span class="exp-accordion-arrow">▼</span>
+                                </button>
+                                <div class="exp-accordion-content" hidden>
+                                    <div class="exp-sub-group">
+                                        <h4 class="exp-sub-title">Freelance Interpreter – JIEXPO</h4>
+                                        <ul class="exp-list">
+                                            <li>INAPA – Huisheng Auto Lighting (2024)</li>
+                                            <li>IBTE – Yiwu Chimao Daily Necessities (2024, 2026)</li>
+                                            <li>IEAE – Huizhou Hongmi Electronics (2025, 2026)</li>
+                                            <li>Morefood – Linquan Spring River Nano Plant New Material (2026)</li>
+                                            <li>Yiwu Fair – Linyi Pengxing Trading (2026)</li>
+                                            <li>IGRATECH – Jiangsu Jiushun Agricultural Machinery (2026)</li>
+                                        </ul>
+                                    </div>
+                                    <div class="exp-sub-group">
+                                        <h4 class="exp-sub-title">Arts &amp; Design Projects</h4>
+                                        <ul class="exp-list">
+                                            <li>Art Exhibitor at Comic Frontier (Comifuro) x UPH (2025–2026)</li>
+                                            <li>Mural Artwork for Groomin.aja</li>
+                                            <li>Company Profile Design for Samudra Diesel</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- /.exp-page-body -->
+                    </div><!-- /.exp-notebook-card -->
+                </div><!-- /.exp-col #experiences -->
+
+                <!-- ── RIGHT: SKILLS ── -->
+                <div class="exp-col" id="skills">
+                    <h2 class="experiences-title" id="skills-heading">
+                        <img src="asssets/image/skills-text.png" alt="Skills" class="title-text-img exp-title-img">
+                    </h2>
+                    <div class="exp-notebook-card">
+                        <div class="notebook-binding-header exp-binding" aria-hidden="true">
+                            <span class="binder-hole"></span>
+                            <div class="binder-loop-slot"><span class="binder-coil"></span><span
+                                    class="binder-hole"></span></div>
+                            <div class="binder-loop-slot"><span class="binder-coil"></span><span
+                                    class="binder-hole"></span></div>
+                            <span class="binder-hole"></span>
+                            <span class="binder-hole"></span>
+                            <span class="binder-hole"></span>
+                            <span class="binder-hole"></span>
+                            <span class="binder-hole"></span>
+                            <span class="binder-hole"></span>
+                            <span class="binder-hole"></span>
+                            <div class="binder-loop-slot"><span class="binder-coil"></span><span
+                                    class="binder-hole"></span></div>
+                            <div class="binder-loop-slot"><span class="binder-coil"></span><span
+                                    class="binder-hole"></span></div>
+                            <span class="binder-hole"></span>
+                        </div>
+                        <div class="exp-page-body">
+                            <!-- ACCORDION 1: Languages -->
+                            <div class="exp-accordion">
+                                <button class="exp-accordion-btn" type="button" aria-expanded="false">
+                                    <span>Languages</span>
+                                    <span class="exp-accordion-arrow">▼</span>
+                                </button>
+                                <div class="exp-accordion-content" hidden>
+                                    <div class="exp-sub-group">
+                                        <ul class="exp-list">
+                                            <li>Indonesian (Native Proficiency)</li>
+                                            <li>English (Professional Working Proficiency)</li>
+                                            <li>Mandarin Chinese (TOCFL B2 Certified)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ACCORDION 2: Design & Creative Tools -->
+                            <div class="exp-accordion">
+                                <button class="exp-accordion-btn" type="button" aria-expanded="false">
+                                    <span>Design &amp; Creative Tools</span>
+                                    <span class="exp-accordion-arrow">▼</span>
+                                </button>
+                                <div class="exp-accordion-content" hidden>
+                                    <div class="exp-sub-group">
+                                        <ul class="exp-list exp-skill-list">
+                                            <li>
+                                                <img src="https://cdn.simpleicons.org/adobeillustrator/FF9A00"
+                                                    alt="Adobe Illustrator" class="exp-skill-logo"
+                                                    onerror="this.style.display='none'">
+                                                Adobe Illustrator
+                                            </li>
+                                            <li>
+                                                <img src="https://cdn.simpleicons.org/adobephotoshop/31A8FF"
+                                                    alt="Adobe Photoshop" class="exp-skill-logo"
+                                                    onerror="this.style.display='none'">
+                                                Adobe Photoshop
+                                            </li>
+                                            <li>
+                                                <img src="https://cdn.simpleicons.org/adobeindesign/FF3366"
+                                                    alt="Adobe InDesign" class="exp-skill-logo"
+                                                    onerror="this.style.display='none'">
+                                                Adobe InDesign
+                                            </li>
+                                            <li>
+                                                <img src="https://cdn.simpleicons.org/adobelightroom/31A8FF"
+                                                    alt="Adobe Lightroom" class="exp-skill-logo"
+                                                    onerror="this.style.display='none'">
+                                                Adobe Lightroom
+                                            </li>
+                                            <li>
+                                                <span class="exp-skill-logo-text">CC</span>
+                                                CapCut
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- /.exp-page-body -->
+                    </div><!-- /.exp-notebook-card -->
+                </div><!-- /.exp-col #skills -->
+
+            </div><!-- /.exp-skills-row -->
+        </section><!-- /#experiences (wrapper) -->
+
+        <!-- =======================================================================
+             MY WORKS! SECTION (Spiral Notebook Sketchpad Carousel)
+             Matches the user's attachment faithfully with interactive carousel & dots
+             ======================================================================= -->
+        <section class="my-works-section" id="my-works" aria-labelledby="my-works-heading">
+            <!-- Section floating sticker accents -->
+            <div class="section-deco-layer" aria-hidden="true">
+                <img src="asssets/image/stars-doodle.png" alt="" class="deco-sticker works-deco-star-1">
+                <img src="asssets/image/tomat-3.png" alt="" class="deco-sticker works-deco-tomat-1 tomat-spin-trigger">
+                <img src="asssets/image/stars-doodle.png" alt="" class="deco-sticker works-deco-star-2">
+                <img src="asssets/image/tomat-2.png" alt="" class="deco-sticker works-deco-tomat-2 tomat-spin-trigger">
+            </div>
+            <div class="my-works-container">
+                <!-- Chunky Playful Display Headline matching attachment -->
+                <h2 class="my-works-title" id="my-works-heading"><img src="asssets/image/myworks-text.png"
+                        alt="My Works!" class="title-text-img myworks-text-img"></h2>
+
+                <!-- ===================================================================
+                     VIEW 1: NOTEBOOK CAROUSEL (Spiral Sketchpads)
+                     =================================================================== -->
+                <div class="notebook-carousel-stage active-view" id="notebook-carousel-stage">
+                    <!-- Carousel Viewport & Track -->
+                    <div class="notebook-carousel-viewport" id="notebook-viewport" tabindex="0" role="region"
+                        aria-label="My Works Notebook Carousel">
+                        <!-- Navigation Arrows inside Viewport Box -->
+                        <button class="carousel-arrow prev-arrow" id="carousel-prev-btn" aria-label="Previous category"
+                            title="Previous category">
+                            <svg viewBox="0 0 24 24" aria-hidden="true" width="22" height="22" stroke="currentColor"
+                                fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="15 18 9 12 15 6"></polyline>
+                            </svg>
+                        </button>
+                        <button class="carousel-arrow next-arrow" id="carousel-next-btn" aria-label="Next category"
+                            title="Next category">
+                            <svg viewBox="0 0 24 24" aria-hidden="true" width="22" height="22" stroke="currentColor"
+                                fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="9 18 15 12 9 6"></polyline>
+                            </svg>
+                        </button>
+
+                        <div class="notebook-carousel-track" id="notebook-track">
+
+                            <!-- ==============================================
+                                 CARD 0: PHOTOGRAPHY
+                                 ============================================== -->
+                            <article class="notebook-card" data-index="0" data-category="photography" tabindex="0">
+                                <!-- Top Wire Binding & Perforated Holes -->
+                                <div class="notebook-binding-header" aria-hidden="true">
+                                    <span class="binder-hole"></span>
+                                    <div class="binder-loop-slot">
+                                        <span class="binder-coil"></span>
+                                        <span class="binder-hole"></span>
+                                    </div>
+                                    <div class="binder-loop-slot">
+                                        <span class="binder-coil"></span>
+                                        <span class="binder-hole"></span>
+                                    </div>
+                                    <span class="binder-hole"></span>
+                                    <span class="binder-hole"></span>
+                                    <span class="binder-hole"></span>
+                                    <span class="binder-hole"></span>
+                                    <span class="binder-hole"></span>
+                                    <span class="binder-hole"></span>
+                                    <span class="binder-hole"></span>
+                                    <div class="binder-loop-slot">
+                                        <span class="binder-coil"></span>
+                                        <span class="binder-hole"></span>
+                                    </div>
+                                    <div class="binder-loop-slot">
+                                        <span class="binder-coil"></span>
+                                        <span class="binder-hole"></span>
+                                    </div>
+                                    <span class="binder-hole"></span>
+                                </div>
+
+                                <!-- Notebook Page Interior -->
+                                <div class="notebook-page-body">
+                                    <!-- Interactive Canvas Area -->
+                                    <div class="notebook-canvas">
+                                        <div class="notebook-sketch-preview">
+                                            <div class="artwork-thumb-container">
+                                                <img src="asssets/image/food-photography-1.jpg"
+                                                    alt="Photography Collection Preview" class="artwork-thumb-img"
+                                                    loading="lazy">
+                                                <span class="artwork-badge">📷 2 Projects</span>
+                                            </div>
+                                            <p class="artwork-desc">Food Photography &amp; Animal Photography</p>
+                                        </div>
+                                    </div>
+
+                                    <!-- Bottom Area: Title at Bottom-Left & View Action -->
+                                    <div class="notebook-card-bottom">
+                                        <h3 class="notebook-category-title">Photography</h3>
+                                        <button class="notebook-explore-btn" type="button"
+                                            aria-label="Open Photography Folder">
+                                            <span>Open Folder</span>
+                                            <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16"
+                                                aria-hidden="true">
+                                                <path fill-rule="evenodd"
+                                                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- ==============================================
+                                 CARD 1: GRAPHIC DESIGN (Centered & Active)
+                                 ============================================== -->
+                            <article class="notebook-card active" data-index="1" data-category="graphic-design"
+                                tabindex="0">
+                                <!-- Top Wire Binding & Perforated Holes -->
+                                <div class="notebook-binding-header" aria-hidden="true">
+                                    <span class="binder-hole"></span>
+                                    <div class="binder-loop-slot">
+                                        <span class="binder-coil"></span>
+                                        <span class="binder-hole"></span>
+                                    </div>
+                                    <div class="binder-loop-slot">
+                                        <span class="binder-coil"></span>
+                                        <span class="binder-hole"></span>
+                                    </div>
+                                    <span class="binder-hole"></span>
+                                    <span class="binder-hole"></span>
+                                    <span class="binder-hole"></span>
+                                    <span class="binder-hole"></span>
+                                    <span class="binder-hole"></span>
+                                    <span class="binder-hole"></span>
+                                    <span class="binder-hole"></span>
+                                    <div class="binder-loop-slot">
+                                        <span class="binder-coil"></span>
+                                        <span class="binder-hole"></span>
+                                    </div>
+                                    <div class="binder-loop-slot">
+                                        <span class="binder-coil"></span>
+                                        <span class="binder-hole"></span>
+                                    </div>
+                                    <span class="binder-hole"></span>
+                                </div>
+
+                                <!-- Notebook Page Interior -->
+                                <div class="notebook-page-body">
+                                    <!-- Interactive Canvas Area -->
+                                    <div class="notebook-canvas">
+                                        <div class="notebook-sketch-preview">
+                                            <div class="artwork-thumb-container">
+                                                <img src="asssets/image/dg-music-1.jpg"
+                                                    alt="Graphic Design Collection Preview" class="artwork-thumb-img"
+                                                    loading="lazy">
+                                                <span class="artwork-badge">🎨 5 Projects</span>
+                                            </div>
+                                            <p class="artwork-desc">&ldquo;Ye Lai Xiang&rdquo;, Personal Branding,
+                                                Xiamen, PRJ, &amp; Kaya Tempe</p>
+                                        </div>
+                                    </div>
+
+                                    <!-- Bottom Area: Title at Bottom-Left & View Action -->
+                                    <div class="notebook-card-bottom">
+                                        <h3 class="notebook-category-title">Graphic Design</h3>
+                                        <button class="notebook-explore-btn" type="button"
+                                            aria-label="Open Graphic Design Folder">
+                                            <span>Open Folder</span>
+                                            <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16"
+                                                aria-hidden="true">
+                                                <path fill-rule="evenodd"
+                                                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- ==============================================
+                                 CARD 2: ILLUSTRATION
+                                 ============================================== -->
+                            <article class="notebook-card" data-index="2" data-category="digital-art" tabindex="0">
+                                <!-- Top Wire Binding & Perforated Holes -->
+                                <div class="notebook-binding-header" aria-hidden="true">
+                                    <span class="binder-hole"></span>
+                                    <div class="binder-loop-slot">
+                                        <span class="binder-coil"></span>
+                                        <span class="binder-hole"></span>
+                                    </div>
+                                    <div class="binder-loop-slot">
+                                        <span class="binder-coil"></span>
+                                        <span class="binder-hole"></span>
+                                    </div>
+                                    <span class="binder-hole"></span>
+                                    <span class="binder-hole"></span>
+                                    <span class="binder-hole"></span>
+                                    <span class="binder-hole"></span>
+                                    <span class="binder-hole"></span>
+                                    <span class="binder-hole"></span>
+                                    <span class="binder-hole"></span>
+                                    <div class="binder-loop-slot">
+                                        <span class="binder-coil"></span>
+                                        <span class="binder-hole"></span>
+                                    </div>
+                                    <div class="binder-loop-slot">
+                                        <span class="binder-coil"></span>
+                                        <span class="binder-hole"></span>
+                                    </div>
+                                    <span class="binder-hole"></span>
+                                </div>
+
+                                <!-- Notebook Page Interior -->
+                                <div class="notebook-page-body">
+                                    <!-- Interactive Canvas Area -->
+                                    <div class="notebook-canvas">
+                                        <div class="notebook-sketch-preview">
+                                            <div class="artwork-thumb-container">
+                                                <img src="asssets/image/charcoal-1.jpg"
+                                                    alt="Illustration Collection Preview" class="artwork-thumb-img"
+                                                    loading="lazy">
+                                                <span class="artwork-badge">✏️ 3 Projects</span>
+                                            </div>
+                                            <p class="artwork-desc">Charcoal, Mural, &amp; Sticker Illustration</p>
+                                        </div>
+                                    </div>
+
+                                    <!-- Bottom Area: Title at Bottom-Left & View Action -->
+                                    <div class="notebook-card-bottom">
+                                        <h3 class="notebook-category-title">Illustration</h3>
+                                        <button class="notebook-explore-btn" type="button"
+                                            aria-label="Open Illustration Folder">
+                                            <span>Open Folder</span>
+                                            <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16"
+                                                aria-hidden="true">
+                                                <path fill-rule="evenodd"
+                                                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </article>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carousel Pagination Dots for View 1 -->
+                <div class="notebook-pagination active-view" id="notebook-pagination"
+                    aria-label="Notebook sections carousel pagination">
+                    <button class="notebook-dot" data-index="0" aria-label="Section 1: Photography"></button>
+                    <button class="notebook-dot active" data-index="1" aria-label="Section 2: Graphic Design"
+                        aria-current="true"></button>
+                    <button class="notebook-dot" data-index="2" aria-label="Section 3: Illustration"></button>
+                </div>
+
+                <!-- ===================================================================
+                     VIEW 2: FOLDER TABS SYSTEM (Directly matching new attachments!)
+                     Shows tabs for Photography, Graphic Design, Illustration
+                     =================================================================== -->
+                <div class="folder-section-stage" id="folder-section-stage">
+                    <div class="folder-stage-container">
+                        <!-- Outer Row with Maroon Folder Body -->
+                        <div class="folder-card-wrapper">
+                            <!-- Folder Unit: Tabs + Maroon Folder Body bound together -->
+                            <div class="folder-unit" id="folder-unit">
+                                <!-- Top Overlapping Folder Tabs (Dynamically populated with current category's projects) -->
+                                <div class="folder-tabs-bar" id="folder-tabs-bar" role="tablist"
+                                    aria-label="Portfolio Projects">
+                                </div>
+
+                                <!-- The Rich Maroon Folder Container -->
+                                <article class="folder-main-card" id="folder-main-card">
+                                    <!-- Outer project navigation arrows + content row -->
+                                    <div class="folder-proj-nav-row">
+                                        <!-- Outer LEFT arrow → navigate to PREVIOUS PROJECT -->
+                                        <button class="folder-proj-arrow prev" id="folder-proj-prev-btn" type="button"
+                                            aria-label="Karya sebelumnya" title="Karya sebelumnya">
+                                            <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor"
+                                                fill="none" stroke-width="3" stroke-linecap="round"
+                                                stroke-linejoin="round">
+                                                <polyline points="15 19 8 12 15 5"></polyline>
+                                            </svg>
+                                        </button>
+
+                                        <div class="folder-content-layout">
+                                            <!-- Left Column: Rounded Square Artwork / Image Frame with in-box overlay arrows -->
+                                            <div class="folder-image-frame" id="folder-img-frame"
+                                                title="Click to view full size">
+                                                <!-- Left Arrow Overlay inside image frame (PAGE navigation only) -->
+                                                <button class="folder-chevron-btn prev-chevron" id="folder-prev-btn"
+                                                    aria-label="Previous page" title="Previous page">
+                                                    <svg viewBox="0 0 24 24" width="28" height="28"
+                                                        stroke="currentColor" fill="none" stroke-width="3"
+                                                        stroke-linecap="round" stroke-linejoin="round">
+                                                        <polyline points="15 19 8 12 15 5"></polyline>
+                                                    </svg>
+                                                </button>
+
+                                                <img src="asssets/image/food-photography-1.jpg" alt="Project preview"
+                                                    class="folder-project-img" id="folder-project-img">
+
+                                                <!-- Page Indicator Pills (shown when project has multiple pages) -->
+                                                <div class="folder-page-pills" id="folder-page-pills"
+                                                    aria-label="Project pages"></div>
+
+                                                <!-- Right Arrow Overlay inside image frame (PAGE navigation only) -->
+                                                <button class="folder-chevron-btn next-chevron" id="folder-next-btn"
+                                                    aria-label="Next page" title="Next page">
+                                                    <svg viewBox="0 0 24 24" width="28" height="28"
+                                                        stroke="currentColor" fill="none" stroke-width="3"
+                                                        stroke-linecap="round" stroke-linejoin="round">
+                                                        <polyline points="9 5 16 12 9 19"></polyline>
+                                                    </svg>
+                                                </button>
+                                            </div>
+
+                                            <!-- Right Column: Project Title & Description -->
+                                            <div class="folder-info-column">
+                                                <h3 class="folder-title" id="folder-title">Food Photography</h3>
+                                                <p class="folder-desc" id="folder-desc">Eksplorasi fotografi makanan
+                                                    dengan menonjolkan tampilan visual, tekstur, warna, dan komposisi
+                                                    objek untuk membangun daya tarik serta menggambarkan karakteristik
+                                                    makanan melalui visual.</p>
+                                            </div>
+                                        </div>
+
+                                        <!-- Outer RIGHT arrow → navigate to NEXT PROJECT -->
+                                        <button class="folder-proj-arrow next" id="folder-proj-next-btn" type="button"
+                                            aria-label="Karya berikutnya" title="Karya berikutnya">
+                                            <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor"
+                                                fill="none" stroke-width="3" stroke-linecap="round"
+                                                stroke-linejoin="round">
+                                                <polyline points="9 5 16 12 9 19"></polyline>
+                                            </svg>
+                                        </button>
+                                    </div>
+
+                                    <!-- Bottom Pagination Dots inside the Folder (rendered dynamically by JS) -->
+                                    <div class="folder-pagination-row" id="folder-pagination-row"
+                                        aria-label="Category projects pagination">
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+
+                        <!-- Back to Carousel Button & Category Switch Pills -->
+                        <div class="folder-back-wrapper">
+                            <button class="btn-return-overview" id="btn-return-overview" type="button">
+                                <span>← Back to Notebook Carousel</span>
+                            </button>
+                            <div class="folder-category-switch-pills" id="folder-cat-pills"
+                                aria-label="Switch Category">
+                                <button type="button" class="folder-cat-pill" data-cat="graphic-design">Graphic
+                                    Design</button>
+                                <button type="button" class="folder-cat-pill"
+                                    data-cat="photography">Photography</button>
+                                <button type="button" class="folder-cat-pill"
+                                    data-cat="digital-art">Illustration</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- =======================================================================
+             PET MY CAT SECTION (Interactive Dougotchi Tamagotchi)
+             Features Tamagotchi shell, playful cat with face changing on pat/click,
+             and interactive buttons (Feed 🐟, Pet ❤️, Play 🎵)
+             ======================================================================= -->
+        <section class="pet-my-cat-section" id="pet-my-cat" aria-labelledby="pet-cat-heading">
+            <!-- Section floating sticker accents -->
+            <div class="section-deco-layer" aria-hidden="true">
+                <img src="asssets/image/stars-doodle.png" alt="" class="deco-sticker pet-deco-star-1">
+                <img src="asssets/image/tomat-1.png" alt="" class="deco-sticker pet-deco-tomat-1 tomat-spin-trigger">
+                <img src="asssets/image/stars-doodle.png" alt="" class="deco-sticker pet-deco-star-2">
+                <img src="asssets/image/tomat-3.png" alt="" class="deco-sticker pet-deco-tomat-2 tomat-spin-trigger">
+            </div>
+            <div class="pet-cat-container">
+                <!-- Header Title & Playful Subtitle -->
+                <div class="pet-cat-header">
+                    <h2 class="pet-cat-title" id="pet-cat-heading"><img src="asssets/image/doumagotchi-text.png?v=2"
+                            alt="Doumagotchi!" class="title-text-img doumagotchi-text-img"></h2>
+                    <p class="pet-cat-subtitle" id="doumagotchi-typing-text">
+                        Meet Doumagotchi! Pet her 10 times to unlock her evolution! Show her lots of love and collect
+                        <img src="asssets/image/doucoin.png" alt="Doucoin" class="subtitle-doucoin" aria-hidden="true">
+                        Doucoin to customize her style!
+                    </p>
+                </div>
+
+                <!-- Tamagotchi Interactive Stage
+                     2-column layout: device LEFT | customize panel RIGHT -->
+                <div class="tamagotchi-stage" id="tamagotchi-stage">
+
+                    <!-- LEFT: Doumagotchi Device (always visible) -->
+                    <div class="tamagotchi-device" id="tamagotchi-device">
+                        <!-- Shell -->
+                        <img src="asssets/image/doumagotchi.png" alt="Doumagotchi Tamagotchi Device"
+                            class="tamagotchi-shell-img" width="505" height="612" draggable="false">
+
+                        <!-- Interactive Screen -->
+                        <div class="tamagotchi-screen" id="tamagotchi-screen" role="button" tabindex="0"
+                            aria-label="Tap the egg to hatch Dou!">
+                            <div class="tamagotchi-screen-lcd" aria-hidden="true"></div>
+                            <div class="screen-particles" id="screen-particles" aria-hidden="true"></div>
+
+                            <!-- EGG PHASE (shown first, tap 100x to evolve) -->
+                            <div class="pet-anim-container egg-phase" id="egg-anim">
+                                <img src="asssets/image/egg-1.png?v=2" alt="Mysterious egg" class="pet-frame egg-frame"
+                                    id="egg-frame-1" draggable="false">
+                                <img src="asssets/image/egg-2.png?v=2" alt="Egg shaking!" class="pet-frame egg-frame"
+                                    id="egg-frame-2" draggable="false">
+                            </div>
+
+                            <!-- EVOLUTION ANIMATION (shown briefly at 100 taps) -->
+                            <div class="pet-anim-container evolution-phase" id="evolution-anim" style="display:none"
+                                aria-hidden="true">
+                                <img src="asssets/image/evolution-1.PNG?v=2" alt="Evolution happening!"
+                                    class="pet-frame evo-frame" id="evo-frame-1" draggable="false">
+                                <img src="asssets/image/evolution-2.PNG?v=2" alt="Evolution happening!"
+                                    class="pet-frame evo-frame" id="evo-frame-2" draggable="false">
+                            </div>
+
+                            <!-- DOU PHASE (revealed after evolution) -->
+                            <div class="pet-anim-container dou-phase" id="dou-anim" style="display:none">
+                                <!-- Cat (Squishy Jelly) -->
+                                <div class="tamagotchi-cat-wrapper" id="tamagotchi-cat" data-frame="1">
+                                    <div class="tamagotchi-cat-anim">
+                                        <img src="asssets/image/dou-cat-calm.png" alt="Cute Dou calm smiling face"
+                                            class="cat-frame cat-frame-calm" id="cat-frame-1" width="450" height="524"
+                                            draggable="false">
+                                        <img src="asssets/image/dou-cat-meow.png" alt="Cute Dou meowing open mouth"
+                                            class="cat-frame cat-frame-meow" id="cat-frame-2" width="450" height="524"
+                                            draggable="false">
+                                        <img src="asssets/image/dou-cat-happy.png" alt="Cute Dou happy laughing face"
+                                            class="cat-frame cat-frame-happy" id="cat-frame-3" width="450" height="524"
+                                            draggable="false">
+                                        <img src="asssets/image/cat-baker.png" alt="Evolved Master Chef Baker Dou"
+                                            class="cat-frame cat-frame-evolved" id="cat-frame-evolved" width="500"
+                                            height="500" draggable="false">
+                                        <!-- Accessory Overlay Layer -->
+                                        <div class="cat-accessory-layer" id="cat-accessory-layer" aria-hidden="true">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 100-Love Reward Notice Box (shown at 100 love, overlays device) -->
+                        <div class="dou-reward-overlay" id="dou-reward-overlay" aria-hidden="true" role="dialog"
+                            aria-modal="true" aria-labelledby="dou-reward-title">
+                            <div class="dou-reward-box">
+                                <img src="asssets/image/doucoin.png" alt="Doucoin" class="dou-reward-coin-img"
+                                    aria-hidden="true">
+                                <p class="dou-reward-text" id="dou-reward-title">Hiiii! im your pet, dou!<br>dress me
+                                    and feed me something delicious pwease.</p>
+                                <button class="dou-reward-claim-btn" id="dou-reward-claim-btn">Got it</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RIGHT PANEL: customize panel — always visible as right column -->
+                    <div class="dou-right-panel" id="dou-right-panel">
+                        <!-- Panel header: coin display only -->
+                        <div class="dou-panel-header">
+                            <p class="dou-right-panel-hint">Pet Dou to earn <img src="asssets/image/doucoin.png"
+                                    alt="Doucoin" class="hint-doucoin" aria-hidden="true"> Doucoin, then dress her up!
+                            </p>
+                        </div>
+
+                        <!-- Coin counter -->
+                        <div class="pet-coin-display" id="pet-coin-display">
+                            <img src="asssets/image/doucoin.png" alt="Doucoin" class="coin-display-img"
+                                aria-hidden="true">
+                            <span class="coin-display-count" id="coin-count-text">0</span>
+                        </div>
+
+                        <!-- 4×2 Accessory Grid Wrapper (Blurred & Locked during Egg phase) -->
+                        <div class="dou-shop-wrapper is-egg-locked" id="dou-shop-wrapper">
+                            <div class="dou-shop-grid" id="dou-shop-grid">
+                                <button class="dou-acc-btn" id="acc-btn-1" data-acc="1" data-price="20" data-slot="head"
+                                    aria-label="Ribbon – 20 Doucoin">
+                                    <img src="asssets/image/aksesoris-ribbon.PNG" alt="Ribbon" class="acc-btn-img"
+                                        draggable="false">
+                                    <span class="acc-btn-price"><img src="asssets/image/doucoin.png" alt=""
+                                            class="acc-price-coin" aria-hidden="true">20</span>
+                                </button>
+                                <button class="dou-acc-btn" id="acc-btn-2" data-acc="2" data-price="20" data-slot="face"
+                                    aria-label="Glasses – 20 Doucoin">
+                                    <img src="asssets/image/aksesoris-glasses.PNG" alt="Glasses" class="acc-btn-img"
+                                        draggable="false">
+                                    <span class="acc-btn-price"><img src="asssets/image/doucoin.png" alt=""
+                                            class="acc-price-coin" aria-hidden="true">20</span>
+                                </button>
+                                <button class="dou-acc-btn" id="acc-btn-3" data-acc="3" data-price="20" data-slot="head"
+                                    aria-label="Bee – 20 Doucoin">
+                                    <img src="asssets/image/aksesoris-bee.PNG" alt="Bee" class="acc-btn-img"
+                                        draggable="false">
+                                    <span class="acc-btn-price"><img src="asssets/image/doucoin.png" alt=""
+                                            class="acc-price-coin" aria-hidden="true">20</span>
+                                </button>
+                                <button class="dou-acc-btn" id="acc-btn-4" data-acc="4" data-price="20" data-slot="head"
+                                    aria-label="Sprout – 20 Doucoin">
+                                    <img src="asssets/image/aksesoris-sprout.PNG" alt="Sprout" class="acc-btn-img"
+                                        draggable="false">
+                                    <span class="acc-btn-price"><img src="asssets/image/doucoin.png" alt=""
+                                            class="acc-price-coin" aria-hidden="true">20</span>
+                                </button>
+                                <button class="dou-acc-btn" id="acc-btn-5" data-acc="5" data-price="20" data-slot="head"
+                                    aria-label="Poo hat – 20 Doucoin">
+                                    <img src="asssets/image/aksesoris-poo.PNG" alt="Poo hat" class="acc-btn-img"
+                                        draggable="false">
+                                    <span class="acc-btn-price"><img src="asssets/image/doucoin.png" alt=""
+                                            class="acc-price-coin" aria-hidden="true">20</span>
+                                </button>
+                                <button class="dou-acc-btn" id="acc-btn-6" data-acc="6" data-price="0" data-slot="neck"
+                                    aria-label="Scarf – Free">
+                                    <img src="asssets/image/aksesoris-scarf.PNG" alt="Scarf" class="acc-btn-img"
+                                        draggable="false">
+                                    <span class="acc-btn-price">Free</span>
+                                </button>
+                                <button class="dou-acc-btn" id="acc-btn-7" data-acc="7" data-price="20" data-slot="head"
+                                    aria-label="Crown – 20 Doucoin">
+                                    <img src="asssets/image/aksesoris-crown.PNG" alt="Crown" class="acc-btn-img"
+                                        draggable="false">
+                                    <span class="acc-btn-price"><img src="asssets/image/doucoin.png" alt=""
+                                            class="acc-price-coin" aria-hidden="true">20</span>
+                                </button>
+                                <button class="dou-acc-btn" id="acc-btn-8" data-acc="8" data-price="20"
+                                    data-slot="cheek" aria-label="Blush – 20 Doucoin">
+                                    <img src="asssets/image/aksesoris-blush.PNG" alt="Blush" class="acc-btn-img"
+                                        draggable="false">
+                                    <span class="acc-btn-price"><img src="asssets/image/doucoin.png" alt=""
+                                            class="acc-price-coin" aria-hidden="true">20</span>
+                                </button>
+                            </div>
+                            <!-- Lock Overlay (visible while Doumagotchi is an Egg) -->
+                            <div class="dou-shop-lock-overlay" id="dou-shop-lock-overlay" aria-hidden="false">
+                                <div class="dou-lock-badge" id="dou-lock-badge">
+                                    <span class="dou-lock-icon" aria-hidden="true">🔒</span>
+                                    <span class="dou-lock-text">Locked</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Affection Meter -->
+                        <div class="pet-status-card">
+                            <div class="status-info-row">
+                                <div class="status-label-group">
+                                    <span class="status-name" id="status-label">Affection meter</span>
+                                </div>
+                            </div>
+                            <div class="status-progress-track" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                                aria-valuemax="100" id="pet-progressbar">
+                                <div class="status-progress-fill" id="pet-progress-fill" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!-- /.tamagotchi-stage -->
+            </div>
+        </section>
+
+        <!-- =======================================================================
+             HIRE ME / CONTACT SECTION ("!")
+             Matches attachment with font matching My Works and playful children's accents
+             ======================================================================= -->
+        <section class="hire-me-section" id="hire-me" aria-labelledby="hire-heading">
+            <!-- Section floating sticker accents -->
+            <div class="section-deco-layer" aria-hidden="true">
+                <img src="asssets/image/stars-doodle.png" alt="" class="deco-sticker hire-deco-star-1">
+                <img src="asssets/image/tomat-1.png" alt="" class="deco-sticker hire-deco-tomat-2 tomat-spin-trigger">
+                <img src="asssets/image/stars-doodle.png" alt="" class="deco-sticker hire-deco-star-2">
+            </div>
+            <div class="hire-container">
+                <!-- Left Column: Title & Contact Handles -->
+                <div class="hire-content">
+                    <h2 class="hire-headline" id="hire-heading"><img src="asssets/image/findme-text.png" alt="Find me!"
+                            class="title-text-img findme-text-img"></h2>
+
+                    <div class="hire-contacts-list">
+                        <!-- Instagram Contact Block -->
+                        <div class="hire-contact-block">
+                            <div class="hire-icon-wrapper" aria-hidden="true">
+                                <svg class="contact-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="2" width="20" height="20" rx="6" ry="6"></rect>
+                                    <circle cx="12" cy="12" r="4.5"></circle>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                </svg>
+                            </div>
+                            <div class="hire-handles-group">
+                                <a href="https://instagram.com/douinprogress" target="_blank" rel="noopener"
+                                    class="hire-handle-link">@douinprogress</a>
+                                <a href="https://instagram.com/peekadou" target="_blank" rel="noopener"
+                                    class="hire-handle-link">@peekadou</a>
+                            </div>
+                        </div>
+
+                        <!-- Email Contact Block -->
+                        <div class="hire-contact-block">
+                            <div class="hire-icon-wrapper" aria-hidden="true">
+                                <svg class="contact-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                    </path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div class="hire-handles-group">
+                                <a href="mailto:taozidour@gmail.com" class="hire-handle-link">@taozidour@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Leave me a message Form (Landscape Card) -->
+                <div class="hire-form-col">
+                    <div class="hire-message-card">
+                        <p class="hire-message-label">What's the tea? ☕</p>
+                        <h3 class="hire-message-heading">Leave me a message!</h3>
+                        <form class="hire-contact-form" id="hire-contact-form" novalidate>
+                            <div class="hire-form-row">
+                                <div class="hire-form-field">
+                                    <label for="contact-name">Name</label>
+                                    <input type="text" id="contact-name" name="name" placeholder="Your name"
+                                        autocomplete="name">
+                                </div>
+                                <div class="hire-form-field">
+                                    <label for="contact-email">Email</label>
+                                    <input type="email" id="contact-email" name="email" placeholder="your@email.com"
+                                        autocomplete="email">
+                                </div>
+                            </div>
+                            <div class="hire-form-field">
+                                <label for="contact-message">Message</label>
+                                <textarea id="contact-message" name="message" rows="2"
+                                    placeholder="Say something nice! 🌸"></textarea>
+                            </div>
+                            <button type="submit" class="hire-form-submit-btn">Send ✉️</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- =======================================================================
+         INTERACTIVE GALLERY MODAL (Displays works when clicking notebook card)
+         ======================================================================= -->
+    <div class="category-modal" id="category-modal" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="category-modal-backdrop" id="modal-backdrop"></div>
+        <div class="category-modal-card">
+            <button class="modal-close-btn" id="modal-close-btn" aria-label="Close Works Gallery">&times;</button>
+            <div class="modal-header">
+                <span class="modal-badge-tag" id="modal-badge">Section Works</span>
+                <h3 class="modal-title" id="modal-title">Graphic Design</h3>
+                <p class="modal-desc" id="modal-desc">Explore projects curated by Calista Candradinatan.</p>
+            </div>
+            <div class="modal-projects-grid" id="modal-projects-grid">
+                <!-- Dynamically populated via script.js -->
+            </div>
+        </div>
+    </div>
+
+    <!-- =======================================================================
+         HIRE ME MODAL DIALOG
+         ======================================================================= -->
+    <div class="hire-modal" id="hire-modal" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="hire-modal-backdrop" id="hire-backdrop"></div>
+        <div class="hire-modal-card">
+            <button class="modal-close-btn" id="hire-close-btn" aria-label="Close Contact Dialog">&times;</button>
+            <div class="hire-modal-header">
+                <div class="hire-avatar-doodle">
+                    <img src="asssets/image/cat-baker.png" alt="" class="hire-cat-avatar" width="60" height="60">
+                </div>
+                <h3 class="hire-modal-title">Let's Work Together!</h3>
+                <p class="hire-modal-subtitle">Feel free to reach out for design collaborations, branding projects, or
+                    freelance inquiries.</p>
+            </div>
+
+            <div class="hire-contact-cards">
+                <a href="mailto:calista.candradinatan@gmail.com" class="hire-contact-item">
+                    <span class="contact-icon">✉️</span>
+                    <div>
+                        <strong>Email</strong>
+                        <span>calista.candradinatan@gmail.com</span>
+                    </div>
+                </a>
+                <a href="https://instagram.com" target="_blank" rel="noopener" class="hire-contact-item">
+                    <span class="contact-icon">📷</span>
+                    <div>
+                        <strong>Instagram</strong>
+                        <span>@calistacandradinatan</span>
+                    </div>
+                </a>
+                <div class="hire-contact-item">
+                    <span class="contact-icon">📍</span>
+                    <div>
+                        <strong>Location</strong>
+                        <span>Tangerang / Jakarta, Indonesia</span>
+                    </div>
+                </div>
+            </div>
+
+            <form class="hire-quick-form" id="hire-form"
+                onsubmit="event.preventDefault(); alert('Thank you for reaching out! Calista will get back to you shortly.'); document.getElementById('hire-modal').classList.remove('active');">
+                <input type="text" class="hire-input" placeholder="Your Name" required>
+                <input type="email" class="hire-input" placeholder="Your Email Address" required>
+                <textarea class="hire-textarea" rows="3" placeholder="Tell me about your project..."
+                    required></textarea>
+                <button type="submit" class="hire-submit-btn">Send Message 🚀</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- =======================================================================
+         PORTFOLIO IMAGE LIGHTBOX POPUP
+         Displays full-size artwork on click with dark backdrop & close button
+         ======================================================================= -->
+    <div class="portfolio-lightbox" id="portfolio-lightbox" aria-hidden="true" role="dialog" aria-modal="true"
+        aria-label="Portfolio Image Preview">
+        <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+        <div class="lightbox-dialog" role="document">
+            <button class="lightbox-close-btn" id="lightbox-close-btn" aria-label="Close image viewer"
+                title="Close (Esc)">&times;</button>
+            <figure class="lightbox-figure">
+                <img src="" alt="" class="lightbox-img" id="lightbox-img">
+                <figcaption class="lightbox-caption" id="lightbox-caption"></figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <!-- =======================================================================
+         CAT PAW CURSOR & FOOTPRINT TRAIL CANVAS
+         ======================================================================= -->
+    <canvas id="footprint-canvas" class="footprint-canvas" aria-hidden="true"></canvas>
+    <div id="cat-paw-cursor" class="cat-paw-cursor" aria-hidden="true"></div>
+
+    <!-- Interactive Scripts -->
+    <script src="asssets/js/script.js"></script>
+</body>
+
+</html>
